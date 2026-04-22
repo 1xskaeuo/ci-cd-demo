@@ -19,3 +19,6 @@ jobs:
         
       - name: Run tests
         run: jest
+        
+      - name: Start application
+        run: echo "Deploy to DEV environment"
